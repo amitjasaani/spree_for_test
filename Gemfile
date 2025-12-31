@@ -108,7 +108,11 @@ gem "spree_sample", spree_opts
 gem "spree_admin", spree_opts
 gem "spree_storefront", spree_opts
 gem "spree_i18n"
-gem "spree_stripe"
+#gem "spree_stripe"
 gem "spree_google_analytics", "~> 1.1"
 gem "spree_klaviyo", "~> 1.1"
-gem "spree_paypal_checkout", "~> 0.5"
+#gem "spree_paypal_checkout", "~> 0.5"
+
+gem 'spree_product_reviews', git: 'https://github.com/umeshravani/spree_product_reviews.git', branch: 'main'
+gem 'spree_razorpay_checkout', git: 'https://github.com/umeshravani/spree_razorpay.git', branch: 'main'
+gem 'spree_google_merchant_feed', git: 'https://github.com/umeshravani/spree_google_merchant', branch: 'main'
